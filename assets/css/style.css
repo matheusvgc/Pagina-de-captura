@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  background-color: #1d2437;
+  background-image: url('../images/bg.png');
+}
+
+.container {
+  max-width: 1070px;
+  margin: auto;
+  color: white;
+}
+
+header {
+  padding-top: 45px;
+}
+
+.hero-area {
+  display: flex;
+}
+
+.hero-area .left-side {
+  flex: 1;
+  margin: 80px 0;
+}
+
+.hero-area .left-side h1 {
+  font-size: 42px;
+  line-height: 50px;
+  font-size: 700;
+  margin: 0 0 20px 0;
+}
+
+.hero-area .left-side p {
+  color: #999;
+  font-size: 16px;
+  line-height: 22px;
+  font-size: 400;
+  margin-bottom: 25px;
+}
+
+.hero-area .left-side .form {
+  margin-bottom: 25px;
+}
+
+.hero-area .left-side .form input {
+  width: 290px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.hero-area .left-side .form button {
+  background: #0071b7;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0 25px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hero-area .left-side .techs img {
+  margin-right: 10px;
+}
+
+.hero-area .right-side {
+  flex: 1;
+  background-image: url(../images/hero.png);
+  background-size: 100% auto;
+}
