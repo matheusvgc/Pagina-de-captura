@@ -73,6 +73,10 @@ header {
   cursor: pointer;
 }
 
+.hero-area .left-side .form button:hover {
+  opacity: 0.8;
+}
+
 .hero-area .left-side .techs img {
   margin-right: 10px;
 }
@@ -81,4 +85,81 @@ header {
   flex: 1;
   background-image: url(../images/hero.png);
   background-size: 100% auto;
+}
+
+/*********** SECTION INFO ***********/
+
+.info {
+  height: 120px;
+  border-bottom: 2px solid #eaeef1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .info-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c2c8cb;
+  margin-right: 20px;
+}
+
+.info .info-circle {
+  margin-right: 20px;
+  width: 6px;
+  height: 6px;
+  background-color: #c2c8cb;
+  border-radius: 50%;
+}
+
+/************* SECTION DUVIDAS************/
+
+.duvidas {
+}
+
+.duvidas-container {
+  margin: auto;
+  max-width: 900px;
+  padding: 80px 0;
+}
+
+.item {
+  border-left: 3px solid #0071b7;
+  display: flex;
+}
+
+.circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #0071b7;
+  margin-left: -10px;
+}
+
+.item-text {
+  margin-left: 60px;
+  flex: 1;
+}
+
+.item-text h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+  margin-top: -10px;
+}
+
+.item-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+  line-height: 23px;
+  margin: 30px 0 70px 0;
+}
+
+.item:last-child {
+  border-left: 3px solid transparent;
+}
+
+.item:last-child p {
+  margin-bottom: 0;
 }
